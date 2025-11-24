@@ -9,6 +9,11 @@ function getmximum(pre, next){
 function getminimum(pre, next){
       return Math.min(pre, next)
 }
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 Create a function calculate that takes two numbers and a callback.
 The callback should return the sum, difference, multiply, or divide depending on which callback you pass.
@@ -33,4 +38,58 @@ console.log(calculate(2, 3, sum));
 console.log(calculate(5, 4, sub));
 console.log(calculate(3, 5, mlt));
 console.log(calculate(6, 2, divide));
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+function expresion
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+const number = [2, 3, 4, 5, 6, 7, 8, 9];
+const square = number.map(function squre(element) {
+  return Math.pow(element, 2);
+});
+document.write(square);
+
+
+const cube = number.map(function cubes(element) {
+  return Math.pow(element, 3);
+});
+document.write(cube);
+
+
+
+const evennum = number.filter(function even(element) {
+  return element % 2 === 0;
+});
+document.write(evennum);
+
+
+
+const oddnnum = number.filter(function odd(element) {
+  return element % 2 !== 0;
+});
+document.write(oddnnum);
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+function expresion
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
