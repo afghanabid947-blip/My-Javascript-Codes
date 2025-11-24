@@ -1,1 +1,11 @@
-
+let grade= [22,33,11,55,32,77,99,88,45]
+let maximum=grade.reduce(getmximum);
+let minimum=grade.reduce(getminimum);
+console.log(maximum);
+console.log(minimum);
+function getmximum(pre, next){
+      return Math.max(pre, next)
+}
+function getminimum(pre, next){
+      return Math.min(pre, next)
+}
