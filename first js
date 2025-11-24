@@ -14,3 +14,23 @@ Create a function calculate that takes two numbers and a callback.
 The callback should return the sum, difference, multiply, or divide depending on which callback you pass.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function calculate(a, b, callback) {
+  return callback(a, b);
+}
+function sum(a, b) {
+  return a + b;
+}
+function sub(a, b) {
+  return a - b;
+}
+function mlt(a, b) {
+  return a * b;
+}
+function divide(a, b) {
+  return a / b;
+}
+console.log(calculate(2, 3, sum));
+console.log(calculate(5, 4, sub));
+console.log(calculate(3, 5, mlt));
+console.log(calculate(6, 2, divide));
+
